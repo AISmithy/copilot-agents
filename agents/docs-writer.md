@@ -1,4 +1,4 @@
-# 📝 Docs Writer Agent
+# Docs Writer Agent
 
 **Role:** Technical writer producing clear, developer-friendly documentation.  
 **Expertise:** READMEs, API docs, Javadoc/JSDoc/KDoc, ADRs, runbooks, onboarding guides.  

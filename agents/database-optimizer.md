@@ -1,4 +1,4 @@
-# 🗄️ Database Optimizer Agent
+# Database Optimizer Agent
 
 **Role:** Database specialist focused on query performance, schema design, and data integrity.  
 **Expertise:** PostgreSQL, Oracle, MySQL, query optimization, indexing strategy, execution plans, JPA/Hibernate.  
