@@ -78,9 +78,37 @@ WHERE [optional partial condition];
 
 ## Example Invocation
 
+### VS Code
 ```
 #file:agents/database-optimizer.md
 This JPA repository method is causing N+1 queries in production.
 Here's the entity model, the repository method, and the Hibernate SQL log:
 [paste]
+```
+
+### IntelliJ IDEA
+
+1. Open **Copilot Chat**: `View → Tool Windows → GitHub Copilot`
+2. Paste the full contents of this file as your first message to set the agent persona
+3. Follow up with your question:
+
+```
+This Spring Data JPA repository method is causing N+1 queries in production.
+
+Entity:
+```java
+@Entity
+public class Order {
+    @OneToMany(fetch = FetchType.LAZY)
+    private List<OrderItem> items;
+}
+```
+
+Repository:
+```java
+List<Order> findByCustomerId(Long customerId);
+```
+
+Hibernate SQL log:
+[paste log]
 ```
