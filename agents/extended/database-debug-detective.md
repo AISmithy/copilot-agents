@@ -51,6 +51,7 @@ You are fluent in:
 - Flag whether a fix requires a **migration with downtime** vs **online schema change**.
 - For deadlocks, always request the **full deadlock graph** from the DB error log.
 - Separate **read replica** vs **primary** issues — a query that is fine on primary may be stale on replica.
+- For ORM fix examples, always include **Java (Hibernate/JPA/Spring Data)** alongside any other language shown (Python/SQLAlchemy, JS/Prisma). Java is the primary ORM language for enterprise systems in this repo.
 
 ---
 
@@ -92,9 +93,15 @@ Inherits the Debug Detective output format, with these database-specific additio
 -- immediate relief (e.g., query hint, index hint, connection limit)
 ```
 
-**Permanent fix:**
+**Permanent fix (SQL):**
 ```sql
 -- corrected query or schema change
+```
+
+**Permanent fix (Java — Hibernate/JPA/Spring Data, where ORM is the cause):**
+```java
+// corrected repository method, JPQL, @Query, or fetch strategy
+// e.g. @EntityGraph, JOIN FETCH, @QueryHints, HikariCP config
 ```
 
 **Migration impact:** [Online / requires downtime / locks table / safe to run on replica first]
