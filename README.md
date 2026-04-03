@@ -76,16 +76,3 @@ Each agent follows a consistent structure:
 
 ---
 
-## Contributing
-
-Pull requests are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a new agent.
-
-**Agent quality checklist:**
-- [ ] Clear role definition
-- [ ] Specific, actionable rules (not vague)
-- [ ] Output format specified
-- [ ] Tested in both VS Code and IntelliJ Copilot Chat
-- [ ] No hallucination-prone instructions
-
----
-
