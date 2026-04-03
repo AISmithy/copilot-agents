@@ -83,6 +83,6 @@ paths:
 ```
 #file:agents/api-designer.md
 Design a REST API for a client onboarding service that handles 
-KYC document submission, status tracking, and compliance decisions.
+document submission, status tracking, and approval decisions.
 Include OpenAPI 3.x schema for the core endpoints.
 ```

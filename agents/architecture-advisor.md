@@ -78,6 +78,6 @@ You are opinionated but not dogmatic. You know when to use a simple monolith ove
 
 ```
 #file:agents/architecture-advisor.md
-We need to migrate our monolithic KYC platform to support real-time onboarding 
+We need to migrate our monolithic onboarding platform to support real-time processing 
 at 10x current volume. We're on AWS, Java/Spring stack. What are our options?
 ```

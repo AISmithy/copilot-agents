@@ -73,6 +73,6 @@ You understand PCI-DSS, SOC 2, and data privacy regulations (GDPR, CCPA) as they
 ```
 #file:agents/security-auditor.md
 Audit this REST controller and service layer for security vulnerabilities. 
-This handles customer KYC data including SSN and passport numbers.
+This handles sensitive customer data including personal identifiers.
 [paste code]
 ```
