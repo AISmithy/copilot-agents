@@ -52,6 +52,7 @@ Copy any agent's content into `.github/copilot-instructions.md` in your project 
 | DevOps Engineer | [`agents/devops-engineer.md`](agents/devops-engineer.md) | CI/CD, Docker, Kubernetes |
 | Performance Profiler | [`agents/performance-profiler.md`](agents/performance-profiler.md) | Bottlenecks, memory, CPU |
 | Onboarding Guide | [`agents/onboarding-guide.md`](agents/onboarding-guide.md) | New devs, codebase walkthrough |
+| Spring Boot Upgrade | [`agents/springboot-upgrade.md`](agents/springboot-upgrade.md) | Spring Boot 2.x → 3.x, Jakarta EE migration |
 
 ---
 
